@@ -1,0 +1,55 @@
+/* The microphone inside the focused field's right edge. */
+.ext-voice-input-mic {
+  position: fixed;
+  z-index: 2147483000;
+  display: grid;
+  place-items: center;
+  inline-size: 28px;
+  block-size: 28px;
+  padding: 0;
+  border: 1px solid var(--borderSubtle, #ddd);
+  border-radius: 50%;
+  background: var(--bgElevated, #fff);
+  color: var(--textSecondary, #555);
+  cursor: pointer;
+}
+
+.ext-voice-input-mic:hover {
+  color: var(--textPrimary, #111);
+}
+
+.ext-voice-input-mic.is-listening {
+  border-color: var(--danger, #d33);
+  background: var(--danger, #d33);
+  color: #fff;
+  animation: ext-voice-input-pulse 1.2s ease-in-out infinite;
+}
+
+.ext-voice-input-mic.is-blocked {
+  color: var(--dangerText, #b00);
+}
+
+@keyframes ext-voice-input-pulse {
+  50% {
+    box-shadow: 0 0 0 6px rgb(221 51 51 / 25%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ext-voice-input-mic.is-listening {
+    animation: none;
+  }
+}
+
+/* What is being heard, until it is typed in. */
+.ext-voice-input-heard {
+  position: fixed;
+  z-index: 2147483000;
+  padding: 4px 10px;
+  border-radius: var(--r-md, 6px);
+  background: var(--bgElevated, #fff);
+  box-shadow: var(--shadow-pop, 0 4px 16px rgb(0 0 0 / 15%));
+  color: var(--textSecondary, #555);
+  font-style: italic;
+  pointer-events: none;
+}

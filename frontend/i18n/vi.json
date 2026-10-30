@@ -1,0 +1,12 @@
+{
+  "extVoiceInput.start": "Đọc chính tả (Alt+V)",
+  "extVoiceInput.stop": "Dừng đọc (Alt+V)",
+  "extVoiceInput.listening": "Đang nghe…",
+  "extVoiceInput.blocked": "Micro đang bị chặn. Hãy cho phép trong cài đặt trang của trình duyệt.",
+  "extVoiceInput.title": "Nhập bằng giọng nói",
+  "extVoiceInput.sub": "Bấm vào bất kỳ ô nhập chữ nào trong Margince, rồi bấm micro ở mép phải hoặc Alt+V và nói. Lời bạn nói được gõ tại con trỏ, theo ngôn ngữ của ứng dụng. Bấm lại, Alt+V hoặc Esc để dừng.",
+  "extVoiceInput.try": "Thử tại đây",
+  "extVoiceInput.unsupported": "Trình duyệt này không hỗ trợ nhận dạng giọng nói",
+  "extVoiceInput.unsupportedBody": "Hãy dùng Chrome, Edge hoặc Safari để đọc chính tả.",
+  "extVoiceInput.privacy": "Trình duyệt thực hiện việc nghe: Chrome và Edge gửi âm thanh tới dịch vụ giọng nói của họ để chuyển thành chữ. Margince không lưu gì."
+}

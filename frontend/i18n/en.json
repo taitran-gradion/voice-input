@@ -1,0 +1,12 @@
+{
+  "extVoiceInput.start": "Dictate (Alt+V)",
+  "extVoiceInput.stop": "Stop dictating (Alt+V)",
+  "extVoiceInput.listening": "Listening…",
+  "extVoiceInput.blocked": "The microphone is blocked. Allow it in the browser's site settings.",
+  "extVoiceInput.title": "Voice input",
+  "extVoiceInput.sub": "Click into any text field in Margince, then press the microphone at its right edge, or Alt+V, and speak. Your words are typed at the cursor, in the app's language. Press it again, Alt+V or Esc to stop.",
+  "extVoiceInput.try": "Try it here",
+  "extVoiceInput.unsupported": "This browser has no speech recognition",
+  "extVoiceInput.unsupportedBody": "Use Chrome, Edge or Safari to dictate.",
+  "extVoiceInput.privacy": "The browser does the listening: Chrome and Edge send the audio to their speech service to turn it into text. Margince stores nothing."
+}
